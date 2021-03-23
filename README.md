@@ -17,6 +17,8 @@ wymiany danych pomiędzy hostem a kontenerem (VOLUME).
 
 https://hub.docker.com/r/izagg/eb_zad1
 
-:userv - wersja z użytkownikiem (uzytk)
+:userv - wersja z użytkownikiem (uzytk) -OSTATNIA
+
 :latest - wersja bez użytkownika (root)
+
 :ubuntu_java8 - zainstalowana java 8 i ubuntu 18.04
