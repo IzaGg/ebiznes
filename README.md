@@ -14,3 +14,5 @@ $ docker run -it userX/ebiznes:latest java --version
 Proszę również udostępnić porty (EXPOSE) dla aplikacji w React'cie
 oraz aplikacji w Play. Dodatkowo proszę przeznaczyć jeden folder do
 wymiany danych pomiędzy hostem a kontenerem (VOLUME).
+
+https://hub.docker.com/r/izagg/eb_zad1
