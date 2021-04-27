@@ -13,3 +13,37 @@ POST	/categories/add	controllers.api.CategoryController.addCategory
 DELETE	/categories/delete:id	controllers.api.CategoryController.deleteCategory(id: String)
 PUT	/categories/update:id	controllers.api.CategoryController.updateCategory(id: String)
 GET	/categories/get:id	controllers.api.CategoryController.getCategory(id: String)
+
+POST	/products/add	controllers.api.ProductController.addProduct
+DELETE	/products/delete:id	controllers.api.ProductController.deleteProduct(id: String)
+POST	/products/update:id	controllers.api.ProductController.updateProduct(id: String)
+GET	/products/get:id	controllers.api.ProductController.getProduct(id: String)
+
+POST	/orders/add	controllers.api.OrderController.addOrder
+DELETE	/orders/delete:id	controllers.api.OrderController.deleteOrder(id: String)
+GET	/orders/get:id	controllers.api.OrderController.getOrder(id: String)
+
+POST	/users/add	controllers.api.UserController.addUser
+DELETE	/users/delete:id	controllers.api.UserController.deleteUser(id: String)
+POST	/users/update:id	controllers.api.UserController.updateUser(id: String)
+GET	/users/get:id	controllers.api.UserController.getUser(id: String)
+
+POST	/phones/add	controllers.api.PhoneController.addProduct
+DELETE	/phones/delete:id	controllers.api.PhoneController.deletePhone(id: String)
+POST	/phones/update:id	controllers.api.PhoneController.updatePhone(id: String)
+GET	/phones/get:id	controllers.api.PhoneController.getPhone(id: String)
+
+POST	/mails/add	controllers.api.MailController.addMail
+DELETE	/mails/delete:id	controllers.api.MailController.deleteMail(id: String)
+POST	/mails/update:id	controllers.api.MailController.updateMail(id: String)
+GET	/mails/get:id	controllers.api.MailController.getMail(id: String)
+
+POST	/addresses/add	controllers.api.AddressController.addAddress
+DELETE	/addresses/delete:id	controllers.api.AddressController.deleteAddress(id: String)
+POST	/addresses/update:id	controllers.api.AddressController.updateAddress(id: String)
+GET	/addresses/get:id	controllers.api.AddressController.getAddress(id: String)
+
+POST	/brands/add	controllers.api.BrandController.addBrand
+DELETE	/brands/delete:id	controllers.api.BrandController.deleteBrand(id: String)
+GET	/brands/get:id	controllers.api.BrandController.getBrand(id: String)
+
