@@ -8,3 +8,8 @@ GET     /                           controllers.HomeController.index()
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+POST	/categories	controllers.api.CategoryController.addCategory
+DELETE	/categories	controllers.api.CategoryController.deleteCategory(id: String)
+PUT	/categories	controllers.api.CategoryController.updateCategory(id: String)
+GET	/categories	controllers.api.CategoryController.getCategory(id: String)
