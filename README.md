@@ -22,3 +22,12 @@ https://hub.docker.com/r/izagg/eb_zad1
 :latest - wersja bez użytkownika (root)
 
 :ubuntu_java8 - zainstalowana java 8 i ubuntu 18.04
+
+Zadanie 2.
+
+Należy stworzyć dziesięć kontrolerów oraz odpowiadającą metodom
+kontrolerów tablicę routingu. Należy przyjąć jako przykład sklep oraz
+odpowiadającą sklepu 10 kontrolerów, w każdym kontrolerze powinny być
+metody CRUD (Create Read Update Delete). Metody powinny być wydmuszką
+(mock), czyli bez istotnej implementacji.
+
