@@ -47,3 +47,9 @@ POST	/brands/add	controllers.api.BrandController.addBrand
 DELETE	/brands/delete:id	controllers.api.BrandController.deleteBrand(id: String)
 GET	/brands/get:id	controllers.api.BrandController.getBrand(id: String)
 
+POST	/bag/add:ProductId	controllers.api.BagController.addtoBag
+DELETE	/bag/delete:ProductId	controllers.api.BagController.deletefromBag(ProductId: String)
+GET	/bag/show	controllers.api.BagController.showBag(ProductId: String)
+
+GET	/auth/login	controllers.api.AuthController.login
+GET	/auth/logout	controllers.api.AuthController.logout
