@@ -23,6 +23,7 @@ https://hub.docker.com/r/izagg/eb_zad1
 
 :ubuntu_java8 - zainstalowana java 8 i ubuntu 18.04
 
+
 Zadanie 2.
 
 Należy stworzyć dziesięć kontrolerów oraz odpowiadającą metodom
@@ -31,3 +32,8 @@ odpowiadającą sklepu 10 kontrolerów, w każdym kontrolerze powinny być
 metody CRUD (Create Read Update Delete). Metody powinny być wydmuszką
 (mock), czyli bez istotnej implementacji.
 
+
+Zadanie 3.
+
+Należy stworzyć dziesięć modeli, gdzie każdy model powinnien mieć
+implementację CRUD (Create Read Update Delete).
