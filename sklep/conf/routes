@@ -11,7 +11,7 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 POST	/categories/add	controllers.api.CategoryController.addCategory
 DELETE	/categories/delete:id	controllers.api.CategoryController.deleteCategory(id: String)
-PUT	/categories/update:id	controllers.api.CategoryController.updateCategory(id: String)
+POST	/categories/update:id	controllers.api.CategoryController.updateCategory(id: String)
 GET	/categories/get:id	controllers.api.CategoryController.getCategory(id: String)
 
 POST	/products/add	controllers.api.ProductController.addProduct
